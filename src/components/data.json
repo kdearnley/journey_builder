@@ -1,0 +1,22 @@
+[
+{
+    "id": 1,
+    "day": 1,
+    "date": "2022-08-18",
+    "place": "Cairo",
+    "sightseeing": "See pyramids",
+    "transport": "Train to Aswan",
+    "overnight": "Aswan Hotel",
+    "budget": 100
+},
+{
+    "id": 2,
+    "day": 2,
+    "date": "2022-08-19",
+    "place": "Aswan",
+    "sightseeing": "See tombs",
+    "transport": "None",
+    "overnight": "Aswan Hotel",
+    "budget": 100
+}
+]

@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+html {
+  font-family: 'Fredericka the Great', cursive;
+  
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 16px 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(131, 179, 241);
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  color:#fff;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+
+h3 {
+  text-align: center;
+  color:#000;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+table {
+  border-radius: 5px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+span {
+  height: 20px;
+}
+
+.background {
+  background-image: url("cartography2.png");
+  background-color: rgb(131, 179, 241);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.card {
+  display: block;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 80%;
+  margin: 15px auto 15px auto;
+  width: 80%;
+  float: center;
+}
+
+.h1 {
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+
+}
+
+.title {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.content {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.btn {
+  margin-right: 10px;
+  float: right;
+  background-color: rgb(131, 179, 241);
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(60, 102, 157);
+}
+
+.itin {
+  margin: 10px;
+}
+
+
+  
