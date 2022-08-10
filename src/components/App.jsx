@@ -31,6 +31,8 @@ const App = () => {
 
   const [editEntryId, setEditEntryId] = useState(null);
 
+  const [formKey, setFormKey] = useState(1);
+
   const handleAddFormChange = (event) => {
     event.preventDefault();
 
@@ -39,7 +41,8 @@ const App = () => {
     const newFormData = { ...addFormData};
     newFormData[fieldName] = fieldValue;
 
-    setAddFormData(newFormData);
+    setAddFormData(newFormData).then(null);
+
   };
 
   const handleEditFormChange = (event) => {
@@ -68,6 +71,7 @@ const App = () => {
 
     const newEntries = [ ...entries, newEntry];
     setEntries(newEntries);
+    setFormKey(formKey + 1);
   };
 
   const handleEditFormSubmit = (event) => {
@@ -132,7 +136,7 @@ const App = () => {
           <div className="row justify-content-md-center" >
           <div><h2>Add to Itinerary</h2></div>
     <div className="card center" >
-    <form className="row g-1" onSubmit={handleAddFormSubmit}>
+    <form className="row g-1" onSubmit={handleAddFormSubmit} key={formKey}>
       <div className="col-md-2">
         <label className="form-label">Day</label>
         <input type="text" name="day" className="form-control" placeholder="#" onChange={handleAddFormChange}/>
